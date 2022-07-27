@@ -75,6 +75,7 @@ h01 = torch.randn(2, 3, 20)
 c01 = torch.randn(2, 3, 20)
 output1, (hn, cn) = rnn1(input1, (h01, c01))
 ```
+
 ## Credits
 
 - [pytorch | lstm](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
