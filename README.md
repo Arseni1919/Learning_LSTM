@@ -28,11 +28,11 @@ L = sequence length
 
 D = 2 if `bidirectional=True` otherwise 1
 
-$H_{in}$ = input_size
+$H_{in}$ = `input_size`
 
-$H_{cell}$ = hidden_size
+$H_{cell}$ = `hidden_size`
 
-$H_{out}$ = proj_size if proj_size>0 otherwise hidden_size
+$H_{out}$ = `proj_size` if `proj_size > 0` otherwise `hidden_size`
 
 
 Class example:
