@@ -1,10 +1,10 @@
 # Learning LSTM
 
 ## Theory
-<center>
-    <img src="static/graph.png" />
-</center>
 
+<p align="center">
+  <img src="static/graph.png" />
+</p>
 ## Code In PyTorch
 
 ## Credits
