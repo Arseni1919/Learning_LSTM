@@ -12,7 +12,7 @@ input: tensor of shape $(L, H_{in})$ for unbatched input, $(L, N, H_{in})$ when 
 when `batch_first=True` containing the features of the input sequence. 
 The input can also be a packed variable length sequence.
 
-`h_0`: tensor of shape $(D * num\_layers, H_{out})$ for unbatched input or $(D * \text{num\_layers}, N, H_{out})$ 
+`h_0`: tensor of shape $(D * num.layers, H_{out})$ for unbatched input or $(D * \text{num\_layers}, N, H_{out})$ 
 containing the initial hidden state for each element in the input sequence. 
 Defaults to zeros if `(h_0, c_0)` is not provided.
 
