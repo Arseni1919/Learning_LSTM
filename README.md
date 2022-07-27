@@ -1,8 +1,11 @@
 # Learning LSTM
 
 ## Theory
+<center>
+    ![](static/graph.png)
+</center>
 
-## Code in PyTorch
+## Code In PyTorch
 
 ## Credits
 
