@@ -33,6 +33,7 @@ class LSTM1(nn.Module):
         out = self.fc_1(out)  # first Dense
         out = self.relu(out)  # relu
         out = self.fc(out)  # Final Output
+
         return out
 
 

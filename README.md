@@ -67,7 +67,16 @@ class LSTM1(nn.Module):
         return out
 ```
 
+Example from PyTorch Docs:
+```python
+rnn1 = nn.LSTM(10, 20, 2)
+input1 = torch.randn(5, 3, 10)
+h01 = torch.randn(2, 3, 20)
+c01 = torch.randn(2, 3, 20)
+output1, (hn, cn) = rnn1(input1, (h01, c01))
+```
 ## Credits
 
-- [blog | lstm](https://cnvrg.io/pytorch-lstm/)
 - [pytorch | lstm](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
+- [blog | lstm](https://cnvrg.io/pytorch-lstm/)
+- [tds | Pytorch LSTMs for time-series data](https://towardsdatascience.com/pytorch-lstms-for-time-series-data-cd16190929d7)
