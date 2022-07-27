@@ -2,7 +2,7 @@
 
 ## Theory
 <center>
-    ![](static/graph.png)
+    <img source="static/graph.png" />
 </center>
 
 ## Code In PyTorch
