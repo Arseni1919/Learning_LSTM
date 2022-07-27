@@ -2,7 +2,7 @@
 
 ## Theory
 <center>
-    <img source="static/graph.png" />
+    <img src="static/graph.png" />
 </center>
 
 ## Code In PyTorch
