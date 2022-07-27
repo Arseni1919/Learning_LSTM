@@ -8,7 +8,7 @@
 
 ## Code In PyTorch
 
-input: tensor of shape $(L, H_{in})$ for unbatched input, $(L, N, H_{in})$ when `batch_first=False` or $(N, L, H_{in})$ 
+**input**: tensor of shape $(L, H_{in})$ for unbatched input, $(L, N, H_{in})$ when `batch_first=False` or $(N, L, H_{in})$ 
 when `batch_first=True` containing the features of the input sequence. 
 The input can also be a packed variable length sequence.
 
@@ -70,3 +70,4 @@ class LSTM1(nn.Module):
 ## Credits
 
 - [blog | lstm](https://cnvrg.io/pytorch-lstm/)
+- [pytorch | lstm](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
