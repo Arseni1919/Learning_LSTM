@@ -76,6 +76,10 @@ c01 = torch.randn(2, 3, 20)
 output1, (hn, cn) = rnn1(input1, (h01, c01))
 ```
 
+## Caveats
+
+- Pat attention to `batch_first` parameter.
+
 ## Credits
 
 - [pytorch | lstm](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
