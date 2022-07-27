@@ -12,7 +12,7 @@ input: tensor of shape $(L, H_{in})$ for unbatched input, $(L, N, H_{in})$ when 
 when `batch_first=True` containing the features of the input sequence. 
 The input can also be a packed variable length sequence.
 
-`h_0`: tensor of shape $(D * \text{num\_layers}, H_{out})$ for unbatched input or $(D * \text{num\_layers}, N, H_{out})$ 
+`h_0`: tensor of shape $(D * num\_layers, H_{out})$ for unbatched input or $(D * \text{num\_layers}, N, H_{out})$ 
 containing the initial hidden state for each element in the input sequence. 
 Defaults to zeros if `(h_0, c_0)` is not provided.
 
@@ -20,10 +20,7 @@ Defaults to zeros if `(h_0, c_0)` is not provided.
 containing the initial cell state for each element in the input sequence. 
 Defaults to zeros if `(h_0, c_0)` is not provided.
 
-where:
 
-
-$\begin{aligned} N ={} & \text{batch size} \\ L ={} & \text{sequence length} \\ D ={} & 2 \text{ if bidirectional=True otherwise } 1 \\ H_{in} ={} & \text{input\_size} \\ H_{cell} ={} & \text{hidden\_size} \\ H_{out} ={} & \text{proj\_size if } \text{proj\_size}>0 \text{ otherwise hidden\_size} \\ \end{aligned}$
 
 
 Class example:
